@@ -1,0 +1,18 @@
+{
+    "password": "Lofi25",
+    "birthDate": {
+        "day": "11",
+        "month": "11",
+        "year": "1995"
+    },
+    "firstName": "Taty",
+    "lastName": "Louti",
+    "company": "Marla group",
+    "address": "201 Street wear, London",
+    "country": "United States",
+    "state": "California",
+    "city": "California",
+    "zipCode": "98000",
+    "mobileNumber": "987-123-456"
+    
+}

@@ -1,0 +1,15 @@
+{
+  "name": "nopcommerce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Assetou Coulibaly",
+  "license": "ISC",
+  "description": "Projet de test d'un site e-commerce pour monter en compétence sur cypress",
+  "devDependencies": {
+    "cypress": "^14.5.0"
+  }
+}
