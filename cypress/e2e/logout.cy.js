@@ -10,7 +10,7 @@ describe("Log out a user",function(){
         cy.fixture("account_info").then((accountInfo)=>{
             cy.get("[data-qa='login-password']").type(accountInfo.password);
             cy.get("[data-qa='login-button']").click();
-            cy.contains('a', " Logged in as ");
+            cy.contains('a', " Logged in as " );
         })
         cy.contains('a', "Logout").click();
         cy.contains('a', "Signup / Login")
