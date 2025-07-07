@@ -1,4 +1,5 @@
 {
   "signupName": "Astou",
-  "signupEmail": "hello@cypress.pm"
+  "signupEmail": "hello@cypress.pm",
+  "badEmail": "gts@gmail.com"
 }
