@@ -36,9 +36,10 @@ describe('Register a new user',function(){
             cy.get('[data-qa="mobile_number"]').type(accountInfo.mobileNumber);
             cy.get('[data-qa="create-account"]').click();
             cy.contains('Account Created!')
-
-
+            cy.get('[data-qa="continue-button"]').click();
+            cy.contains('a', ' Delete Account').click();
         })
+
         
     })
     
