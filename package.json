@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "Projet de test d'un site e-commerce pour monter en compétence sur cypress",
   "devDependencies": {
+    "allure-cypress": "^3.3.0",
     "cypress": "^14.5.0"
   }
 }
