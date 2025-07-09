@@ -1,5 +1,6 @@
 {
-    "password": "Lofi25",
+    "signupPassword": "Lofi25",
+    "loginPassword": "Test@24",
     "badPassword": "gfh",
     "birthDate": {
         "day": "11",

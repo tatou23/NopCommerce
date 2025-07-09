@@ -22,7 +22,7 @@ describe('Register a new user',function(){
         })
         cy.fixture('account_info').then((accountInfo) => {
             cy.get('#uniform-id_gender1').click();
-            cy.get('[data-qa="password"]').type(accountInfo.password);
+            cy.get('[data-qa="password"]').type(accountInfo.signupPassword);
             cy.get('[data-qa="days"]').type(accountInfo.birthDate.day);
             cy.get('[data-qa="months"]').type(accountInfo.birthDate.month);
             cy.get('[data-qa="years"]').type(accountInfo.birthDate.year);
