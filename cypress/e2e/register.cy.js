@@ -10,7 +10,7 @@ describe('Register a new user',function(){
     })
     /*Registration of a new user*/
 
-    it('Should register a new user', function(){
+    it('Should successfully register a new user', function(){
         cy.visit('http://automationexercise.com');
         cy.contains('AutomationExercise');
         cy.contains('a', "Signup / Login").click();
@@ -38,10 +38,16 @@ describe('Register a new user',function(){
             cy.contains('Account Created!')
             cy.get('[data-qa="continue-button"]').click();
             cy.contains('a', ' Delete Account').click();
-        })
-
-        
+        })  
     })
-    
+    it('Should register a user with an existing email address', function(){
+        cy.visit('http://automationexercise.com');
+        cy.contains('AutomationExercise');
+        cy.contains('a', "Signup / Login").click();
+        cy.get('[data-qa="signup-name"]').type('Test');
+        cy.get('[data-qa="signup-email"]').type('test@tests.fr');
+        cy.get('[data-qa="signup-button"]').click();
+        cy.contains('Email Address already exist!');
+    })
 
 })
