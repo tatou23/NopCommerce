@@ -8,5 +8,6 @@ export default {
       });
       return config;
     },
+  baseUrl: 'http://automationexercise.com',
   },
 };

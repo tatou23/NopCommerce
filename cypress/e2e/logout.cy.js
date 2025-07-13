@@ -1,7 +1,6 @@
 describe("Log out a user",function(){
     it("Should log out a user", function(){
-        cy.visit('http://automationexercise.com');
-        cy.contains('AutomationExercise');
+        cy.start();
         cy.contains('a', "Signup / Login").click();
         cy.contains("Login to your account");
         cy.fixture("user").then((userData)=>{

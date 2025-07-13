@@ -2,8 +2,7 @@ describe('Register a new user',function(){
     /*Redirection on the registration page*/
 
     it('Should redirect on the registration page', function(){
-        cy.visit('http://automationexercise.com');
-        cy.contains('AutomationExercise');
+        cy.start();
         cy.contains('a', "Signup / Login").click();
         cy.url().should('include', '/login');
         cy.contains('New User Signup!');
@@ -11,8 +10,7 @@ describe('Register a new user',function(){
     /*Registration of a new user*/
 
     it('Should successfully register a new user', function(){
-        cy.visit('http://automationexercise.com');
-        cy.contains('AutomationExercise');
+        cy.start();
         cy.contains('a', "Signup / Login").click();
         cy.fixture('user').then((userData) => {
             cy.get('[data-qa="signup-name"]').type(userData.signupName);
@@ -41,8 +39,7 @@ describe('Register a new user',function(){
         })  
     })
     it('Should register a user with an existing email address', function(){
-        cy.visit('http://automationexercise.com');
-        cy.contains('AutomationExercise');
+        cy.start();
         cy.contains('a', "Signup / Login").click();
         cy.get('[data-qa="signup-name"]').type('Test');
         cy.get('[data-qa="signup-email"]').type('test@tests.fr');

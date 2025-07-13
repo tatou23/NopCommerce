@@ -1,7 +1,6 @@
 describe("Log in a user",function(){
     it("Should log in successfully a user",function(){
-        cy.visit('http://automationexercise.com');
-        cy.contains('AutomationExercise');
+        cy.start();
         cy.contains('a', "Signup / Login").click();
         cy.contains("Login to your account");
         cy.fixture("user").then((userData)=>{
@@ -14,8 +13,7 @@ describe("Log in a user",function(){
         })
     })
     it("Should fail to log in a user with bad credentials",function(){
-        cy.visit('http://automationexercise.com');
-        cy.contains('AutomationExercise');
+        cy.start();
         cy.contains('a', "Signup / Login").click();
         cy.contains("Login to your account");
         cy.fixture("user").then((userData)=>{
