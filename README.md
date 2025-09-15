@@ -1,5 +1,5 @@
 
-# 🧪 Cypress E2E Tests – NopCommerce
+# 🧪 Cypress E2E Tests – AutomationExercice
 
 Projet d’automatisation de tests end-to-end avec [Cypress](https://www.cypress.io/). 
 
