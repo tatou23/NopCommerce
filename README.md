@@ -11,7 +11,8 @@ Projet d’automatisation de tests end-to-end avec [Cypress](https://www.cypress
 
 - Automatiser des scénarios utilisateur sur http://automationexercise.com (registration, login, logout, contact us)
 - Utiliser les fixtures pour injecter des données
-- Créer des commandes personnalisées
+- Créer des commandes personnalisées pour la clarté et la maintenabilité des tests
+- Utiliser le design pattern Page Object Model(POM) pour la clarté et la maintenabilité des tests
 - Générer un rapport HTML avec allure report
 - Mettre en place un pipeline CI avec GitHub Actions
 
