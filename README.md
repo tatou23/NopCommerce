@@ -50,7 +50,9 @@ Rapport généré : AutomationExercice/allure-report/index.html
 
 ## 👩‍💻 À propos
 
-Je suis une testeuse QA fonctionnelle en reconversion vers l’automatisation.  
+Je suis une testeuse QA fonctionnelle avec une forte appétence pour l'automatisation.
+Avec une solide expertise du métier du test, l'enjeu pour moi aujourd'hui est d'accélérer les livraisons sans compromis majeurs sur la qualité. 
+
 Ce projet fait partie de ma montée en compétences sur Cypress.  
 Il montre que je suis capable de :
 
