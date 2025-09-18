@@ -14,7 +14,7 @@ describe('Contact us form',function(){
             cy.get('[data-qa="email"]').type(contactData.email);
             cy.get('[data-qa="subject"]').type(contactData.subject);
             cy.get('[data-qa="message"]').type(contactData.message);
-            cy.get('[name="upload_file"]').selectFile('cypress/e2e/contact_us.cy.js');
+            cy.get('[name="upload_file"]').selectFile('cypress/fixtures/contact.txt');
             cy.get('[data-qa="submit-button"]').click();
             cy.contains('Success! Your details have been submitted successfully.');
         })
